@@ -21,11 +21,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "rm": "rm -rf docs",
-    "mv": "mv build docs",
-    "git": "git add . && git commit -m 'update' && git push origin master",
-    "deploy": "npm run rm && npm run build && npm run mv && npm run git"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
@@ -45,5 +41,5 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "https://noma-t.github.io/GyroFunWeb/",
+  "homepage": "https://noma-t.github.io/GyroFunWeb/"
 }
